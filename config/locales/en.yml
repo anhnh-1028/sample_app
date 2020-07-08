@@ -1,0 +1,18 @@
+en:
+  title: Sample app
+  home : Home
+  help : Help
+  log_in : Login
+  static_pages:
+    help:
+      title: Help
+      content: Get help on the Ruby on Rails Tutorial at the
+      content_2: Help page
+      content_3: To get help on this sample app, see the
+      tutorial: Ruby on Rails Tutorial
+    home:
+      title: Welcome to the Sample App
+      content: This is the home page for the
+      tutorial: Ruby on Rails Tutorial
+      tutorial_second: sample application.
+      sign_up_now: Sign up now!

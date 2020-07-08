@@ -1,0 +1,20 @@
+<header class="navbar navbar-fixed-top
+navbar-inverse">
+  <div class="container">
+    <%= link_to "sample_app", static_pages_home_path, id: "logo" %>
+    <div class="locale_change">
+      <%= link_to image_tag("co_anh.jpg", class: "co_anh"),
+        locale: :en, id: "en" %>
+      <%= link_to image_tag("co_viet_nam.jpeg", class: "co_viet_nam"),
+        locale: :vi, id: "vi" %>
+    </div>
+  </div>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("home"), static_pages_home_path %></li>
+        <li><%= link_to t("help"), static_pages_help_path %></li>
+        <li><%= link_to t("log_in"), "#" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

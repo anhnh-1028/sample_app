@@ -1,0 +1,62 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+:root{
+  --white: #ffffff
+}
+
+/* header */
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+#logo:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* universal */
+body {
+  padding-top: 100px;
+}
+section {
+  overflow: auto;
+}
+textarea {
+  resize: vertical;
+}
+.center {
+  text-align: center;
+}
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+.locale_change{
+  position: absolute;
+  text-decoration: none;
+  width: 80px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: var(--white);
+  text-align: center;
+  left: 3%;
+  top: 3%;
+}
+
+.co_anh{
+  width: 30px;
+  margin-top: 5px;
+}
+
+.co_viet_nam{
+  width: 40px;
+  margin-top: 5px;
+}

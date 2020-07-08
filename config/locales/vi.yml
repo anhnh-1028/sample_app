@@ -1,0 +1,18 @@
+vi:
+  title: "Xin chào! "
+  home : "Trang chủ"
+  help : "Trợ giúp"
+  log_in : "Đăng nhập"
+  static_pages:
+    help:
+      title: "Trợ giúp"
+      content: Tìm kiếm tài liệu để học Ruby tại
+      content_2: Trang trợ giúp
+      content_3: Để tham khảo ứng dụng mẫu, xem tại
+      tutorial: Tài liệu hướng dẫn
+    home:
+      title: Chào mừng đến với Sample App
+      content: Đây là trang chủ cho
+      tutorial: Ruby on Rails Tutorial
+      tutorial_second: ""
+      sign_up_now: Đăng ký ngay!
