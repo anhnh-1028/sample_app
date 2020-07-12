@@ -1,0 +1,29 @@
+vi:
+  title: App Mẫu
+  base_title:  Ứng dụng mẫu hướng dẫn Ruby on Rails
+  static_pages:
+    home:
+      title: Trang chủ
+      nameApp: App mẫu
+      content_1: Đây là trang chủ cho
+      content_2: ứng dụng mẫu.
+      link_title: Hướng dẫn Ruby on Rails
+    help:
+      title: Trợ giúp
+      nameApp: App mẫu
+      content_1: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+      content_2: Để nhận trợ giúp về ứng dụng mẫu này, xem tại
+      link_title_1: Hướng dẫn Rails trang trợ giúp
+      link_title_2: Hướng dẫn Ruby on Rails
+    about:
+      title: Giới thiệu
+      content_1: một phần của
+      content_2: gia đình hướng dẫn, là một
+      content_3: và
+      content_4: để dạy phát triển web với
+      content_5: Đây là ứng dụng mẫu cho hướng dẫn.
+      link_title_1: Hướng dẫn Ruby on Rails
+      link_title_2: Học đủ
+      link_title_3: sách
+      link_title_4: screencast series
+      link_tilte_5: Ruby on Rails
