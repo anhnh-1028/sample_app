@@ -13,3 +13,11 @@ link:
       link_3: "https://www.railstutorial.org/book"
       link_4: "https://screencasts.railstutorial.org/"
       link_5: "https://rubyonrails.org/"
+user:
+  name:
+    max_length: 50
+  email:
+    valid_email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+    max_length: 255
+  password:
+    min_length: 6
