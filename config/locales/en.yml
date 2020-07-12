@@ -1,13 +1,22 @@
 en:
-  title: SampleApp
+  title: Sample App
   base_title: Ruby on Rails Tutorial Sample App
+  news: News
+  about: About
+  tutorial: Ruby on Rails Tutorial
+  by: by
+  home: Home
+  help: Help
+  login: Login
+  author: Michael Hartl
   static_pages:
     home:
       title: Home
-      nameApp: SampleApp
+      welcome: Welcome to the Sample App
       content_1: This is the home page for the
       content_2: sample application.
       link_title: Ruby on Rails Tutorial
+      sign_up: Sign up now!
     help:
       title: Help
       nameApp: SampleApp
@@ -27,3 +36,7 @@ en:
       link_title_3: book
       link_title_4: screencast series
       link_title_5: Ruby on Rails
+  users:
+    new:
+      sign_up: Sign up
+      content_1: This will be a signup page for new users.
