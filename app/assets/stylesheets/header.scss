@@ -1,30 +1,7 @@
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
-@import 'color.scss';
-
-/* universal */
-body{
-  padding-top: 60px;
-}
-
-section{
-  overflow: auto;
-}
-
-textarea{
-  resize: vertical;
-}
-
-.center{
-  text-align: center;
-}
-
-.center h1{
-  margin-bottom: 10px;
-}
+@import 'app.scss';
 
 /* header */
-#logo{
+#logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -35,23 +12,23 @@ textarea{
   font-weight: bold;
 }
 
-#logo:hover{
+#logo:hover {
   color: $whitefff;
   text-decoration: none;
 }
 
 /* typography */
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-h1{
+h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
 }
-h2{
+h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
@@ -60,13 +37,13 @@ h2{
   color: $gray777;
 }
 
-p{
+p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
 
 /* icon-i18n */
-.locale_change{
+.locale_change {
   position: absolute;
   text-decoration: none;
   width: 80px;
@@ -78,42 +55,12 @@ p{
   top: 3%;
 }
 
-.co_anh{
+.co_anh {
   width: 30px;
   margin-top: 5px;
 }
 
-.co_viet_nam{
+.co_viet_nam {
   width: 40px;
   margin-top: 5px;
-}
-
-/* footer */
-footer{
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid $whitefff;
-  color: $gray777;
-}
-
-footer a{
-  color: $gray777;
-}
-
-footer a:hover{
-  color: $black222;
-}
-
-footer small{
-  float: left;
-}
-
-footer ul{
-  float: right;
-  list-style: none;
-}
-
-footer ul li{
-  float: left;
-  margin-left: 15px;
 }
