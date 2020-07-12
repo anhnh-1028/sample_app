@@ -1,4 +1,5 @@
 vi:
+# global
   title: Ứng dụng Mẫu
   base_title:  Ứng dụng mẫu hướng dẫn Ruby on Rails
   news: Tin tức
@@ -8,12 +9,18 @@ vi:
   home: Trang chủ
   help: Trợ giúp
   login: Đăng nhập
+  logout: Đăng xuất
   author: Michael Hartl
   name: Họ tên
   email: Email
   password: Mật khẩu
   confirmation: Xác nhận mật khẩu
   no_user: Không tìm thấy người dùng với id %{id}
+  sign_up: Đăng ký ngay!
+  success_sign_up: Chào mừng đến với Sample App!!
+  error_sign_up: Lỗi đăng ký!!
+  error_log_in: Invalid email/password
+  # view/static_pages
   static_pages:
     home:
       title: Trang chủ
@@ -21,7 +28,6 @@ vi:
       content_1: Đây là trang chủ cho
       content_2: ứng dụng mẫu.
       link_title: Hướng dẫn Ruby on Rails
-      sign_up: Đăng ký ngay!
     help:
       title: Trợ giúp
       nameApp: App mẫu
@@ -41,15 +47,26 @@ vi:
       link_title_3: sách
       link_title_4: screencast series
       link_tilte_5: Ruby on Rails
+  #view/users
   users:
     new:
       sign_up: Đăng ký
       content_1: Đây là trang đăng ký cho người dùng mới.
       create_my_account: Tạo tài khoản
+  #view/shared
   shared:
     error_messages:
       the_form_contains: Form bạn điền có
       error: lỗi
+  layouts:
+    header:
+      settings: Chỉnh sửa thông tin
+      profile: Thông tin cá nhân
 # controller
   success_sign_up: Chào mừng đến với Sample App!!
   error_sign_up: Lỗi đăng ký!!
+# view/sessions
+  sessions:
+    new:
+      log_in: Đăng nhập
+      new_user?: Bạn là người dùng mới?
