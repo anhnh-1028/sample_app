@@ -42,3 +42,7 @@ yarn-debug.log*
 
 /config/database.yml
 /test/test_helper.rb
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
