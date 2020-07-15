@@ -1,13 +1,22 @@
 vi:
-  title: App Mẫu
+  title: Ứng dụng Mẫu
   base_title:  Ứng dụng mẫu hướng dẫn Ruby on Rails
+  news: Tin tức
+  about: Giới thiệu
+  tutorial: Hướng dẫn Ruby on Rails
+  by: viết bởi
+  home: Trang chủ
+  help: Trợ giúp
+  login: Đăng nhập
+  author: Michael Hartl
   static_pages:
     home:
       title: Trang chủ
-      nameApp: App mẫu
+      welcome: Chào mừng bạn đến với ứng dụng mẫu
       content_1: Đây là trang chủ cho
       content_2: ứng dụng mẫu.
       link_title: Hướng dẫn Ruby on Rails
+      sign_up: Đăng ký ngay!
     help:
       title: Trợ giúp
       nameApp: App mẫu
@@ -27,3 +36,7 @@ vi:
       link_title_3: sách
       link_title_4: screencast series
       link_tilte_5: Ruby on Rails
+  users:
+    new:
+      sign_up: Đăng ký
+      content_1: Đây là trang đăng ký cho người dùng mới.
