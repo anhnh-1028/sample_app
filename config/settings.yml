@@ -21,3 +21,4 @@ user:
     max_length: 255
   password:
     min_length: 6
+ava_size: 80

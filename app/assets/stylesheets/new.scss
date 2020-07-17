@@ -1,0 +1,25 @@
+@import 'app.scss';
+
+/* forms */
+input, textarea, select, .uneditable-input {
+  border: 1px solid $gray9b9595;
+  width: 100%;
+  margin-bottom: 15px;
+}
+input {
+  height: auto !important;
+}
+
+#error_explanation {
+  color: $redff0000;
+    ul {
+      color: $redff0000;
+      margin: 0 0 30px;
+    }
+}
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
+  }
+}

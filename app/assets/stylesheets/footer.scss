@@ -1,0 +1,31 @@
+@import 'app.scss';
+
+/* footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid $whitefff;
+  color: $gray777;
+}
+
+footer a {
+  color: $gray777;
+}
+
+footer a:hover {
+  color: $black222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
