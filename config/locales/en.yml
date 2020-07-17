@@ -1,4 +1,5 @@
 en:
+  # global
   title: Sample App
   base_title: Ruby on Rails Tutorial Sample App
   news: News
@@ -7,13 +8,19 @@ en:
   by: by
   home: Home
   help: Help
-  login: Login
+  login: Log in
+  logout: Log out
   author: Michael Hartl
   name: Name
   email: Email
   password: Password
   confirmation: Confirmation
   no_user: Can't find user for id %{id}
+  sign_up: Sign up now!
+  success_sign_up: Welcome to the sample app!!!
+  error_sign_up: Registration Error!
+  error_log_in: Invalid email/password
+  # view/static_pages
   static_pages:
     home:
       title: Home
@@ -21,7 +28,6 @@ en:
       content_1: This is the home page for the
       content_2: sample application.
       link_title: Ruby on Rails Tutorial
-      sign_up: Sign up now!
     help:
       title: Help
       nameApp: SampleApp
@@ -41,15 +47,26 @@ en:
       link_title_3: book
       link_title_4: screencast series
       link_title_5: Ruby on Rails
+  #view/users
   users:
     new:
       sign_up: Sign up
       content_1: This will be a signup page for new users.
       create_my_account: Create Account
+  # view/shared
   shared:
     error_messages:
       the_form_contains: The form contains
       error: error
+  layouts:
+    header:
+      settings: Settings
+      profile: Profile
 # controller
   success_sign_up: Welcome to the sample app!!!
   error_sign_up: Registration Error!
+# view/sessions
+  sessions:
+    new:
+      log_in: Log in
+      new_user?: New user?
