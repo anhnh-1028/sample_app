@@ -6,8 +6,7 @@ Rails.application.routes.draw do
     get "/about", to: "static_pages#about"
     # users
     get "/signup", to: "users#new"
-    post "/signup", to: "users#create"
-    resources :users, only: :show
+    resources :users, except: :new
     # sessions
     get "/login", to: "sessions#new"
     post "/login", to: "sessions#create"

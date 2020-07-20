@@ -4,10 +4,11 @@ class SessionsController < ApplicationController
   def create
     @user = User.find_by email: params[:session][:email].downcase
     if @user&.authenticate(params[:session][:password]).present?
-      login @user
-      params[:session][:remember_me] == Settings.checkbox ? remember(@user) : forget(@user)
       flash[:success] = t "login_success"
-      redirect_to @user
+      login @user
+      params[:session][:remember_me] ==
+        Settings.checkbox ? remember(@user) : forget(@user)
+      redirect_back_or @user
     else
       flash[:danger] = t "error_log_in"
       render :new
