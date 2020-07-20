@@ -4,3 +4,5 @@ require('@rails/activestorage').start()
 require('channels')
 require('jquery')
 require('bootstrap')
+
+import './micropost'

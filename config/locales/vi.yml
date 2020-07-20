@@ -128,3 +128,16 @@ vi:
   send_reset_email_message: Đã gửi email chứa link reset mật khẩu.
   email_reset_not_found: Không tìm thấy email.
   password_reset_error: Lỗi reset mật khẩu
+  micropost_created: Tạo bài viết thành công!
+  micropost_deleted: Bài viết đã được xóa!
+  micropost_mess_valid1: phải là một định dạng hình ảnh
+  micropost_mess_valid2: có kích thước dưới 5MB
+  posted: Đã đăng
+  ago: trước.
+  compose_post: Soạn bài viết ...
+  post: Đăng bài
+  alert_image_size: "Kích thước tệp tối đa là 5MB.
+    Vui lòng chọn một tập tin nhỏ hơn."
+  micropost: bài viết.
+  micropost_feed: Bài viết rút gọn
+  view_my_profile: Xem thông tin cá nhân

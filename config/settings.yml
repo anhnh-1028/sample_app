@@ -27,3 +27,10 @@ checkbox: "1"
 pagination: 10
 gravatar_link: "http://gravatar.com/emails"
 time_expired: 2
+content_post_length: 140
+micropost_size: 50
+user_params: "%i(name email password password_confirmation)"
+format_img: "%w(image/jpeg image/gif image/png)"
+micropost_params: "%i(content image)"
+mega_size: 5
+image_accept: "image/jpeg,image/gif,image/png"

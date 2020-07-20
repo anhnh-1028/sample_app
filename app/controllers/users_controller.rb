@@ -12,10 +12,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-
-    flash[:warning] = t("no_user", id: params[:id])
-    redirect_to root_path
+    @microposts = @user.microposts.page(params[:page]).per Settings.pagination
   end
 
   def create
@@ -57,19 +54,12 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
 
+    redirect_to root_path
     flash[:danger] = t "error_loaded"
   end
 
   def user_params
     params.require(:user).permit User::USER_PARAMS
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_log_in."
-    redirect_to login_url
   end
 
   def correct_user

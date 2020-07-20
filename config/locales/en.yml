@@ -126,3 +126,15 @@ en:
   send_reset_email_message: Email sent with password reset instructions.
   email_reset_not_found: Email address not found.
   password_reset_error: password reset error
+  micropost_created: Micropost created!
+  micropost_deleted: Micropost deleted!
+  micropost_mess1: must be a valid image format
+  micropost_mess2: should be less than 5MB
+  posted: Posted
+  ago: ago.
+  compose_post: Compose new micropost...
+  post: Post
+  alert_image_size: Maximum file size is 5MB. Please choose a smaller file.
+  micropost: microposts
+  micropost_feed: Micropost Feed
+  view_my_profile: View my profile
