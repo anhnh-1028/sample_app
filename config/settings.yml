@@ -22,3 +22,4 @@ user:
   password:
     min_length: 6
 ava_size: 80
+checkbox: "1"
