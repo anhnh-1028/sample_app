@@ -11,8 +11,8 @@ class PasswordResetsController < ApplicationController
       flash[:info] = t "send_reset_email_message"
       redirect_to root_url
     else
-      flash.now[:danger] = t "email_reset_not_found"
-      render :new
+      flash[:danger] = t "email_reset_not_found"
+      redirect_to new_password_reset_url
     end
   end
 

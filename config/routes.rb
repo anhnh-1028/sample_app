@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     get "/about", to: "static_pages#about"
     # users
     get "/signup", to: "users#new"
+    get ":id/following", to: "following#index", as: "following"
+    get ":id/follower", to: "follower#index", as: "follower"
     resources :users, except: :new
     # sessions
     get "/login", to: "sessions#new"
@@ -17,5 +19,7 @@ Rails.application.routes.draw do
     resources :password_resets, except: %i(show index destroy)
     #microposts
     resources :microposts, only: %i(create destroy)
+    #relationship
+    resources :relationships, only: %i(create destroy)
   end
 end

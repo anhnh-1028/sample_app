@@ -48,15 +48,8 @@ class UsersController < ApplicationController
       redirect_to root_path
     end
   end
+
   private
-
-  def load_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    redirect_to root_path
-    flash[:danger] = t "error_loaded"
-  end
 
   def user_params
     params.require(:user).permit User::USER_PARAMS
