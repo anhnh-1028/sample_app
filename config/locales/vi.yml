@@ -20,6 +20,7 @@ vi:
   success_sign_up: Chào mừng đến với Sample App!!
   error_sign_up: Lỗi đăng ký!!
   error_log_in: Invalid email/password
+  login_success: Đăng nhập thành công!
   # view/static_pages
   static_pages:
     home:
@@ -70,3 +71,4 @@ vi:
     new:
       log_in: Đăng nhập
       new_user?: Bạn là người dùng mới?
+      remember_me: Ghi nhớ tài khoản

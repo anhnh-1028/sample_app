@@ -20,6 +20,7 @@ en:
   success_sign_up: Welcome to the sample app!!!
   error_sign_up: Registration Error!
   error_log_in: Invalid email/password
+  login_success: Login success!
   # view/static_pages
   static_pages:
     home:
@@ -70,3 +71,4 @@ en:
     new:
       log_in: Log in
       new_user?: New user?
+      remember_me: Remember me on this computer
