@@ -21,6 +21,30 @@ vi:
   error_sign_up: Lỗi đăng ký!!
   error_log_in: Invalid email/password
   login_success: Đăng nhập thành công!
+  profile_updated: Cập nhật thông tin cá nhân!
+  user_deleted : Người dùng đã bị xóa!
+  please_log_in: Hãy đăng nhập!
+  delete: Xóa
+  you_sure: Bạn có chắc không?
+  error_updated: Lỗi cập nhật!
+  error_loaded: Lỗi tìm kiếm người dùng!
+  views:
+    pagination:
+      first: "« ĐẦU TIÊN"
+      last: "CUỐI CÙNG »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
+      truncate: "…"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "Không tìm thấy %{entry_name}"
+          one: "Hiển thị <b>1</b> %{entry_name}"
+          other: "Hiển thị <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Hiển thị %{entry_name} <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
+
   # view/static_pages
   static_pages:
     home:
@@ -54,6 +78,12 @@ vi:
       sign_up: Đăng ký
       content_1: Đây là trang đăng ký cho người dùng mới.
       create_my_account: Tạo tài khoản
+    edit:
+      edit_user: Chỉnh sửa thông tin
+      content1: Cập nhật thông tin
+      save_changes: Lưu những thay đổi
+    index:
+      all_users: Tất cả người dùng
   #view/shared
   shared:
     error_messages:
