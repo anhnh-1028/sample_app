@@ -44,6 +44,8 @@ en:
           other: "Displaying <b>all %{count}</b> %{entry_name}"
       more_pages:
         display_entries: "Displaying %{entry_name} <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
+  activate: Please check your email to activate your account.
+  chance: Chance
   # view/static_pages
   static_pages:
     home:
@@ -101,3 +103,12 @@ en:
       log_in: Log in
       new_user?: New user?
       remember_me: Remember me on this computer
+  user_mailer:
+    account_activation:
+      activate_mail_content: "Welcome to the Sample App!
+         Click on the link below to activate your account"
+      activate: Activate
+      flash_activate: Please check your email to activate your account.
+  account_activated: Account activated!
+  invalid_activation_link: Invalid activation link!
+  message_login: Account not activated. Check your email for the activation link.

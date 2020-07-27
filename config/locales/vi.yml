@@ -44,7 +44,8 @@ vi:
           other: "Hiển thị <b>all %{count}</b> %{entry_name}"
       more_pages:
         display_entries: "Hiển thị %{entry_name} <b>%{first} - %{last}</b> of <b>%{total}</b> in total"
-
+  activate: Kiểm tra email để kích hoạt tài khoản của bạn
+  chance: Thay đổi
   # view/static_pages
   static_pages:
     home:
@@ -102,3 +103,13 @@ vi:
       log_in: Đăng nhập
       new_user?: Bạn là người dùng mới?
       remember_me: Ghi nhớ tài khoản
+  user_mailer:
+    account_activation:
+      activate_mail_content: Welcome to the Sample App!
+         Click on the link below to activate your account
+      activate: Activate
+      flash_activate: Kiểm tra email để kích hoạt tài khoản.
+  account_activated: Kích hoạt tài khoản thành công!
+  invalid_activation_link: Kích hoạt tài khoản thất bại!
+  message_login: "Tài khoản của bạn chưa được kích hoạt.
+    Hãy kích hoạt tài khoản trong email đăng kí!"

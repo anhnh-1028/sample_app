@@ -13,6 +13,7 @@ class UsersController < ApplicationController
 
   def show
     return if @user
+
     flash[:warning] = t("no_user", id: params[:id])
     redirect_to root_path
   end
@@ -20,9 +21,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t "success_sign_up"
-      login @user
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "user_mailer.account_activation.flash_activate"
+      redirect_to root_path
     else
       flash[:danger] = t "error_sign_up"
       render :new
@@ -55,6 +56,7 @@ class UsersController < ApplicationController
   def load_user
     @user = User.find_by id: params[:id]
     return if @user
+
     flash[:danger] = t "error_loaded"
   end
 
@@ -64,6 +66,7 @@ class UsersController < ApplicationController
 
   def logged_in_user
     return if logged_in?
+
     store_location
     flash[:danger] = t "please_log_in."
     redirect_to login_url
