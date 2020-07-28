@@ -109,7 +109,22 @@ vi:
          Click on the link below to activate your account
       activate: Activate
       flash_activate: Kiểm tra email để kích hoạt tài khoản.
+    eset_password:
+      flash_reset: Kiểm tra email để tạo lại mật khẩu.
   account_activated: Kích hoạt tài khoản thành công!
   invalid_activation_link: Kích hoạt tài khoản thất bại!
   message_login: "Tài khoản của bạn chưa được kích hoạt.
     Hãy kích hoạt tài khoản trong email đăng kí!"
+  forgot_password: Quên mật khẩu
+  password_reset: Tạo lại mật khẩu
+  mail_reset_content: "Click vào đường link bên dưới
+     để tiến hành kích hoạt tài khoản:"
+  update_password: Cập nhật mật khẩu
+  send_email: Gửi email
+  password_empty_errors: Trường password không thể để trống!
+  password_reset_success: Tạo lại tài khoản thành công!
+  password_reset_error: Lỗi reset tài khoản!
+  password_expired: Hết hạn reset mật khẩu.
+  send_reset_email_message: Đã gửi email chứa link reset mật khẩu.
+  email_reset_not_found: Không tìm thấy email.
+  password_reset_error: Lỗi reset mật khẩu

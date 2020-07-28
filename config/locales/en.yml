@@ -109,6 +109,20 @@ en:
          Click on the link below to activate your account"
       activate: Activate
       flash_activate: Please check your email to activate your account.
+    reset_password:
+      flash_reset: Please check your email to reset your password.
   account_activated: Account activated!
   invalid_activation_link: Invalid activation link!
   message_login: Account not activated. Check your email for the activation link.
+  forgot_password: Forgot password
+  password_reset: Password reset
+  mail_reset_content: "To reset your password click the link below:"
+  update_password: Update password
+  send_email: Send email
+  password_empty_errors: Password feild can't empty!
+  password_reset_success: Password has been reset!
+  password_reset_error: Password reset error!
+  password_expired: Password reset has expired.
+  send_reset_email_message: Email sent with password reset instructions.
+  email_reset_not_found: Email address not found.
+  password_reset_error: password reset error

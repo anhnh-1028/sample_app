@@ -6,6 +6,7 @@ class SessionsController < ApplicationController
     if @user&.authenticate(params[:session][:password]).present?
       if @user.activated?
         log_in @user
+        flash[:success] = t "login_success"
         if params[:session][:remember_me] == Settings.checkbox
           remember @user
         else

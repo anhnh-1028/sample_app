@@ -49,4 +49,4 @@ config/environments/*.local.yml
 
 # Ignore application configuration
 /config/application.yml
-/test/*
+/test
