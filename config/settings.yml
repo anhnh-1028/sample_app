@@ -34,3 +34,4 @@ format_img: "%w(image/jpeg image/gif image/png)"
 micropost_params: "%i(content image)"
 mega_size: 5
 image_accept: "image/jpeg,image/gif,image/png"
+size_user_avatar: 30

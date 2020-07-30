@@ -20,4 +20,12 @@ class ApplicationController < ActionController::Base
     flash[:danger] = t "please_log_in."
     redirect_to login_url
   end
+
+  def load_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    redirect_to root_path
+    flash[:danger] = t "error_loaded"
+  end
 end

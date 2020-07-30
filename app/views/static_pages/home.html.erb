@@ -1,27 +1,30 @@
 <% provide :title, t(".title") %>
 <div class="center jumbotron">
-    <% if logged_in? %>
-      <div class="row">
-        <aside class="col-md-4">
-          <section class="user_info">
-            <%= render "shared/user_info" %>
-          </section>
-          <section class="micropost_form">
-            <%= render "shared/micropost_form" %>
-          </section>
-        </aside>
-        <div class="col-md-8">
-          <h3><%= t "micropost_feed" %></h3>
-          <%= render "shared/feed" %>
-        </div>
+  <% if logged_in? %>
+    <div class="row">
+      <aside class="col-md-4">
+        <section class="user_info">
+          <%= render "shared/user_info" %>
+        </section>
+        <section class="stats">
+          <%= render "shared/stats" %>
+        </section>
+        <section class="micropost_form">
+          <%= render "shared/micropost_form" %>
+        </section>
+      </aside>
+      <div class="col-md-8">
+        <h3><%= t "micropost_feed" %></h3>
+        <%= render "shared/feed" %>
       </div>
-    <% else %>
-      <h1><%= t ".welcome" %></h1>
-      <h2>
-        <%= t ".content_1" %>
-        <%= link_to t(".link_title"), Settings.link.static_pages.home.link_1 %>
-        <%= t ".content_2" %>
-      </h2>
-      <%= link_to t("sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
-    <% end %>
+    </div>
+  <% else %>
+    <h1><%= t ".welcome" %></h1>
+    <h2>
+      <%= t ".content_1" %>
+      <%= link_to t(".link_title"), Settings.link.static_pages.home.link_1 %>
+      <%= t ".content_2" %>
+    </h2>
+    <%= link_to t("sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>
