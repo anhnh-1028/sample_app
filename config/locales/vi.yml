@@ -97,6 +97,11 @@ vi:
 # controller
   success_sign_up: Chào mừng đến với Sample App!!
   error_sign_up: Lỗi đăng ký!!
+  api:
+    default:
+      need_login: Bạn cần đăng nhập để sử dụng tính năng
+    error_formatter:
+      error: Lỗi rồi đó!!
 # view/sessions
   sessions:
     new:
